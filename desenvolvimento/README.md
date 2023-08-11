@@ -1,2 +1,2 @@
-# amigoSolidario
-Projeto Integrador do quarto período de sistemas de informação
+# Desenvolvimento
+Fase de desenvolvimento e produção ocorrerá apartir do segundo bimestre
