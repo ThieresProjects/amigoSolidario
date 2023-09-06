@@ -8,5 +8,6 @@ namespace ASTL.Data
 {
     public class Class1
     {
+
     }
 }
