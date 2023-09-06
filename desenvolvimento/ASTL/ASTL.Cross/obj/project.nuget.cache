@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "BSbTVc7vCPwFGFnp4e1R3JeeqML42457rdtOjp+R9QLBYF/vLjpJ6RrCqYiTMpeQA6WNXVdQ6mdF5bWq8TXjDQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\thier_2gt\\OneDrive\\Área de Trabalho\\amigoSolidario\\desenvolvimento\\ASTL\\ASTL.Cross\\ASTL.Cross.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thier_2gt\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.13\\microsoft.windowsdesktop.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\thier_2gt\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.13\\microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\thier_2gt\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.13\\microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
