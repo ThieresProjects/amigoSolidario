@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\desenvolvimento"
+    "\\desenvolvimento",
+    "\\desenvolvimento\\Development",
+    "\\desenvolvimento\\Development\\ASTLapp",
+    "\\desenvolvimento\\Development\\ASTLapp\\astl-app"
   ],
-  "SelectedNode": "\\desenvolvimento",
+  "SelectedNode": "\\desenvolvimento\\Development\\ASTLapp\\astl-app",
   "PreviewInSolutionExplorer": false
 }
