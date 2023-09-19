@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thier_2gt\\OneDrive\\Área de Trabalho\\amigoSolidario\\desenvolvimento\\ASTL\\ASTL.Cross\\ASTL.Cross.csproj": {}
+    "C:\\_Repository\\amigoSolidario\\desenvolvimento\\Development\\ASTLapi\\ASTL.Cross\\ASTL.Cross.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thier_2gt\\OneDrive\\Área de Trabalho\\amigoSolidario\\desenvolvimento\\ASTL\\ASTL.Cross\\ASTL.Cross.csproj": {
+    "C:\\_Repository\\amigoSolidario\\desenvolvimento\\Development\\ASTLapi\\ASTL.Cross\\ASTL.Cross.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thier_2gt\\OneDrive\\Área de Trabalho\\amigoSolidario\\desenvolvimento\\ASTL\\ASTL.Cross\\ASTL.Cross.csproj",
+        "projectUniqueName": "C:\\_Repository\\amigoSolidario\\desenvolvimento\\Development\\ASTLapi\\ASTL.Cross\\ASTL.Cross.csproj",
         "projectName": "ASTL.Cross",
-        "projectPath": "C:\\Users\\thier_2gt\\OneDrive\\Área de Trabalho\\amigoSolidario\\desenvolvimento\\ASTL\\ASTL.Cross\\ASTL.Cross.csproj",
+        "projectPath": "C:\\_Repository\\amigoSolidario\\desenvolvimento\\Development\\ASTLapi\\ASTL.Cross\\ASTL.Cross.csproj",
         "packagesPath": "C:\\Users\\thier_2gt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thier_2gt\\OneDrive\\Área de Trabalho\\amigoSolidario\\desenvolvimento\\ASTL\\ASTL.Cross\\obj\\",
+        "outputPath": "C:\\_Repository\\amigoSolidario\\desenvolvimento\\Development\\ASTLapi\\ASTL.Cross\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thier_2gt\\AppData\\Roaming\\NuGet\\NuGet.Config",

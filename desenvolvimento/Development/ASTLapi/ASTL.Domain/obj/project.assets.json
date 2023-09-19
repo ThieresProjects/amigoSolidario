@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thier_2gt\\OneDrive\\Área de Trabalho\\amigoSolidario\\desenvolvimento\\ASTL\\ASTL.Domain\\ASTL.Domain.csproj",
+      "projectUniqueName": "C:\\_Repository\\amigoSolidario\\desenvolvimento\\Development\\ASTLapi\\ASTL.Domain\\ASTL.Domain.csproj",
       "projectName": "ASTL.Domain",
-      "projectPath": "C:\\Users\\thier_2gt\\OneDrive\\Área de Trabalho\\amigoSolidario\\desenvolvimento\\ASTL\\ASTL.Domain\\ASTL.Domain.csproj",
+      "projectPath": "C:\\_Repository\\amigoSolidario\\desenvolvimento\\Development\\ASTLapi\\ASTL.Domain\\ASTL.Domain.csproj",
       "packagesPath": "C:\\Users\\thier_2gt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thier_2gt\\OneDrive\\Área de Trabalho\\amigoSolidario\\desenvolvimento\\ASTL\\ASTL.Domain\\obj\\",
+      "outputPath": "C:\\_Repository\\amigoSolidario\\desenvolvimento\\Development\\ASTLapi\\ASTL.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\thier_2gt\\AppData\\Roaming\\NuGet\\NuGet.Config",

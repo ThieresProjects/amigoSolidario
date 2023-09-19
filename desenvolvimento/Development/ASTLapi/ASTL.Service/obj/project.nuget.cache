@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ur9s1/2IteCleWCC9i3A8PoOXCEzICWM/zQSUzLwbh2SQx+CK10Pwj2h91gFrvtGLpbqncgo57JgL/2dBV2GaA==",
+  "dgSpecHash": "SvKu2v4cIZK5C2qoWeuvVE3W1EzrRh9GBOtnjkMr/FN9VEM84usCtec+/ejRoyPoORbmr8mKtAqKpc+0F5eUIQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\thier_2gt\\OneDrive\\Área de Trabalho\\amigoSolidario\\desenvolvimento\\ASTL\\ASTL.Service\\ASTL.Service.csproj",
+  "projectFilePath": "C:\\_Repository\\amigoSolidario\\desenvolvimento\\Development\\ASTLapi\\ASTL.Service\\ASTL.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thier_2gt\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.13\\microsoft.windowsdesktop.app.ref.6.0.13.nupkg.sha512",
     "C:\\Users\\thier_2gt\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.13\\microsoft.netcore.app.ref.6.0.13.nupkg.sha512",

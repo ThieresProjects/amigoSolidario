@@ -229,11 +229,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thier_2gt\\OneDrive\\Área de Trabalho\\amigoSolidario\\desenvolvimento\\ASTL\\ASTL.WebApi\\ASTL.WebApi.csproj",
+      "projectUniqueName": "C:\\_Repository\\amigoSolidario\\desenvolvimento\\Development\\ASTLapi\\ASTL.WebApi\\ASTL.WebApi.csproj",
       "projectName": "ASTL.WebApi",
-      "projectPath": "C:\\Users\\thier_2gt\\OneDrive\\Área de Trabalho\\amigoSolidario\\desenvolvimento\\ASTL\\ASTL.WebApi\\ASTL.WebApi.csproj",
+      "projectPath": "C:\\_Repository\\amigoSolidario\\desenvolvimento\\Development\\ASTLapi\\ASTL.WebApi\\ASTL.WebApi.csproj",
       "packagesPath": "C:\\Users\\thier_2gt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thier_2gt\\OneDrive\\Área de Trabalho\\amigoSolidario\\desenvolvimento\\ASTL\\ASTL.WebApi\\obj\\",
+      "outputPath": "C:\\_Repository\\amigoSolidario\\desenvolvimento\\Development\\ASTLapi\\ASTL.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\thier_2gt\\AppData\\Roaming\\NuGet\\NuGet.Config",
