@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace ASTL.Domain.Entities
 {
-    internal class Acesso
+    public class Acesso
     {
+        public int AcessoId { get; set; }
+        public string  { get;}
     }
 }
