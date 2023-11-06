@@ -1,0 +1,11 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/desenvolvimento/Development/ASTLapi/.vs/ASTL/FileContentIndex/688be3cf-474c-41d6-8301-6490b60eb7d3.vsidx
+/desenvolvimento/Development/ASTLapi/.vs/ASTL/FileContentIndex/661924f4-229e-4497-b353-0b2baaf06f6f.vsidx
+/desenvolvimento/Development/ASTLapi/.vs/ASTL/FileContentIndex/945c93e1-56c2-4540-86f5-c566181989ce.vsidx
+/desenvolvimento/Development/ASTLapi/ASTL.Domain/obj/Debug/net6.0/ASTL.Domain.assets.cache
+/desenvolvimento/Development/ASTLapi/ASTL.Domain/obj/Debug/net6.0/ASTL.Domain.csproj.AssemblyReference.cache
+/desenvolvimento/Development/ASTLapi/ASTL.Domain/obj/Debug/net6.0/ASTL.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/desenvolvimento/Development/ASTLapi/ASTL.Domain/Entities/Pessoa.cs

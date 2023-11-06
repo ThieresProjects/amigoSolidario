@@ -9,6 +9,6 @@ namespace ASTL.Domain.Entities
     public class Acesso
     {
         public int AcessoId { get; set; }
-        public string Tipo{ get;}
+        public string Tipo { get;}
     }
 }
