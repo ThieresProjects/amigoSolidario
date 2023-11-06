@@ -1,36 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import googleImg from './Content/Img/google.png'
-import githubImg from './Content/Img/github.png'
 
-const forms = document.querySelector(".forms"),
-      pwShowHide = document.querySelectorAll(".eye-icon"),
-      links = document.querySelectorAll(".link");
+import './styles.css';
+import googleImg from '../../Content/Img/google.png'
+import githubImg from '../../Content/Img/github.png'
 
-pwShowHide.forEach( (eyeIcon:any) => {
-    eyeIcon.addEventListener("click", () => {
-        let pwFields = eyeIcon.parentElement.parentElement.querySelectorAll(".password");
+// const forms = document.querySelector(".forms"),
+//       pwShowHide = document.querySelectorAll(".eye-icon"),
+//       links = document.querySelectorAll(".link");
+
+// pwShowHide.forEach( (eyeIcon:any) => {
+//     eyeIcon.addEventListener("click", () => {
+//         let pwFields = eyeIcon.parentElement.parentElement.querySelectorAll(".password");
         
-        pwFields.forEach( (password:any) => {
-            if(password.type === "password"){
-                password.type = "text";
-                eyeIcon.classList.replace("bx-hide", "bx-show");
-                return;
-            }
-            password.type = "password";
-            eyeIcon.classList.replace("bx-show", "bx-hide");
-        })
+//         pwFields.forEach( (password:any) => {
+//             if(password.type === "password"){
+//                 password.type = "text";
+//                 eyeIcon.classList.replace("bx-hide", "bx-show");
+//                 return;
+//             }
+//             password.type = "password";
+//             eyeIcon.classList.replace("bx-show", "bx-hide");
+//         })
         
-    })
-})      
+//     })
+// })      
 
-links.forEach(link => {
-    link.addEventListener("click", e => {
-       e.preventDefault(); //preventing form submit
-       forms?.classList.toggle("show-signup");
-    })
-})
+// links.forEach(link => {
+//     link.addEventListener("click", e => {
+//        e.preventDefault(); //preventing form submit
+//        forms?.classList.toggle("show-signup");
+//     })
+// })
 
 function App() {
   return (
