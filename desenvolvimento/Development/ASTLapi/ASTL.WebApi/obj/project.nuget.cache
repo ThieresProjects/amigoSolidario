@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9lzR6l7F0ge7fle+yDfMiIRqNta64eKa7cywM6XKdRc+rbNw6vyip9XiJlQLAXWgbU/bBuvIpnWQWfy2VHXECw==",
+  "dgSpecHash": "bS8FHaTBdEkZemIV9gMnBYTarlX9LS+YqafG8l1Ulfmnro3X6CTMzC47qMXsM/kCwZ1kQQ3DQMsHN9ebbb0VhQ==",
   "success": true,
   "projectFilePath": "C:\\_Repository\\amigoSolidario\\desenvolvimento\\Development\\ASTLapi\\ASTL.WebApi\\ASTL.WebApi.csproj",
   "expectedPackageFiles": [
@@ -10,10 +10,10 @@
     "C:\\Users\\thier_2gt\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\thier_2gt\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
     "C:\\Users\\thier_2gt\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
-    "C:\\Users\\thier_2gt\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.13\\microsoft.windowsdesktop.app.ref.6.0.13.nupkg.sha512",
-    "C:\\Users\\thier_2gt\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.13\\microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
-    "C:\\Users\\thier_2gt\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.13\\microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512",
-    "C:\\Users\\thier_2gt\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.13\\microsoft.netcore.app.host.win-x64.6.0.13.nupkg.sha512"
+    "C:\\Users\\thier_2gt\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.24\\microsoft.windowsdesktop.app.ref.6.0.24.nupkg.sha512",
+    "C:\\Users\\thier_2gt\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.24\\microsoft.netcore.app.ref.6.0.24.nupkg.sha512",
+    "C:\\Users\\thier_2gt\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.24\\microsoft.aspnetcore.app.ref.6.0.24.nupkg.sha512",
+    "C:\\Users\\thier_2gt\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.24\\microsoft.netcore.app.host.win-x64.6.0.24.nupkg.sha512"
   ],
   "logs": []
 }
