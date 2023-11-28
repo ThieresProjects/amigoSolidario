@@ -1,0 +1,12 @@
+C:\_Repository\amigoSolidario\desenvolvimento\Development\ASTLapi\ASTL.Domain\bin\Debug\net6.0\ASTL.Domain.deps.json
+C:\_Repository\amigoSolidario\desenvolvimento\Development\ASTLapi\ASTL.Domain\bin\Debug\net6.0\ASTL.Domain.dll
+C:\_Repository\amigoSolidario\desenvolvimento\Development\ASTLapi\ASTL.Domain\bin\Debug\net6.0\ASTL.Domain.pdb
+C:\_Repository\amigoSolidario\desenvolvimento\Development\ASTLapi\ASTL.Domain\obj\Debug\net6.0\ASTL.Domain.csproj.AssemblyReference.cache
+C:\_Repository\amigoSolidario\desenvolvimento\Development\ASTLapi\ASTL.Domain\obj\Debug\net6.0\ASTL.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\_Repository\amigoSolidario\desenvolvimento\Development\ASTLapi\ASTL.Domain\obj\Debug\net6.0\ASTL.Domain.AssemblyInfoInputs.cache
+C:\_Repository\amigoSolidario\desenvolvimento\Development\ASTLapi\ASTL.Domain\obj\Debug\net6.0\ASTL.Domain.AssemblyInfo.cs
+C:\_Repository\amigoSolidario\desenvolvimento\Development\ASTLapi\ASTL.Domain\obj\Debug\net6.0\ASTL.Domain.csproj.CoreCompileInputs.cache
+C:\_Repository\amigoSolidario\desenvolvimento\Development\ASTLapi\ASTL.Domain\obj\Debug\net6.0\ASTL.Domain.dll
+C:\_Repository\amigoSolidario\desenvolvimento\Development\ASTLapi\ASTL.Domain\obj\Debug\net6.0\refint\ASTL.Domain.dll
+C:\_Repository\amigoSolidario\desenvolvimento\Development\ASTLapi\ASTL.Domain\obj\Debug\net6.0\ASTL.Domain.pdb
+C:\_Repository\amigoSolidario\desenvolvimento\Development\ASTLapi\ASTL.Domain\obj\Debug\net6.0\ref\ASTL.Domain.dll

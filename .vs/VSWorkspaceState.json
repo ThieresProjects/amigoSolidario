@@ -1,8 +1,13 @@
 {
   "ExpandedNodes": [
     "",
+    "\\desenvolvimento",
+    "\\desenvolvimento\\Development",
+    "\\desenvolvimento\\Development\\ASTLapi",
     "\\desenvolvimento\\Development\\ASTLapi\\ASTL.Data",
+    "\\desenvolvimento\\Development\\ASTLapi\\ASTL.Domain\\Entities",
     "\\desenvolvimento\\Development\\ASTLapp"
   ],
+  "SelectedNode": "\\desenvolvimento\\Development\\ASTLapi\\ASTL.Domain",
   "PreviewInSolutionExplorer": false
 }

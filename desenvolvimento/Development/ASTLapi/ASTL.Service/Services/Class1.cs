@@ -1,4 +1,4 @@
-﻿namespace ASTL.Service
+﻿namespace ASTL.Service.Services
 {
     public class Class1
     {

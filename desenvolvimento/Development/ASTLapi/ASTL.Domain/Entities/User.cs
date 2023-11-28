@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ASTL.Domain.Entities
 {
-    public class Usuario
+    public class User
     {
-        public int UsuarioId { get; set; }
-        public string UsuarioAcesso { get; set; }
+        public int UserId { get; set; }
+        public string UserAcess { get; set; }
         public string Email { get; set; }
-        public string Senha { get; set; }
+        public string Password { get; set; }
     }
 }

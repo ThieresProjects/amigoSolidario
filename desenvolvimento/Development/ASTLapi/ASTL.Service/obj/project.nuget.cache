@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "kwLagUQRlfcbIJKYuITH7OzXfuNobcCPChDSMOapRkZX2H5GZgIbeUU2EbtYoIDvGV5yQ2CJ+tarVy9ky/7DqQ==",
+  "dgSpecHash": "4lqX9yfI9MgOqn2uB5uYSd5SHf4TS3OegODgdYno0JKs9yci1xWp+aSpgcErQ+C/jjES4xdqB8sGv+O0IcPmHg==",
   "success": true,
   "projectFilePath": "C:\\_Repository\\amigoSolidario\\desenvolvimento\\Development\\ASTLapi\\ASTL.Service\\ASTL.Service.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\thier_2gt\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.24\\microsoft.windowsdesktop.app.ref.6.0.24.nupkg.sha512",
-    "C:\\Users\\thier_2gt\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.24\\microsoft.netcore.app.ref.6.0.24.nupkg.sha512",
-    "C:\\Users\\thier_2gt\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.24\\microsoft.aspnetcore.app.ref.6.0.24.nupkg.sha512"
+    "C:\\Users\\thier_2gt\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\thier_2gt\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\thier_2gt\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512"
   ],
   "logs": []
 }
