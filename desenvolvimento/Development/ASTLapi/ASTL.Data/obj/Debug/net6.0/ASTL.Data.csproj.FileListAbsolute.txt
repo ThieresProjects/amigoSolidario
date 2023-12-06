@@ -13,3 +13,5 @@ C:\_Repository\amigoSolidario\desenvolvimento\Development\ASTLapi\ASTL.Data\obj\
 C:\_Repository\amigoSolidario\desenvolvimento\Development\ASTLapi\ASTL.Data\obj\Debug\net6.0\refint\ASTL.Data.dll
 C:\_Repository\amigoSolidario\desenvolvimento\Development\ASTLapi\ASTL.Data\obj\Debug\net6.0\ASTL.Data.pdb
 C:\_Repository\amigoSolidario\desenvolvimento\Development\ASTLapi\ASTL.Data\obj\Debug\net6.0\ref\ASTL.Data.dll
+C:\_Repository\amigoSolidario\desenvolvimento\Development\ASTLapi\ASTL.Data\bin\Debug\net6.0\ASTL.Data.runtimeconfig.json
+C:\_Repository\amigoSolidario\desenvolvimento\Development\ASTLapi\ASTL.Data\obj\Debug\net6.0\ASTL.Data.genruntimeconfig.cache

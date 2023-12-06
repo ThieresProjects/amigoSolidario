@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ASTL.Domain.Interfaces.Repositories;
 
 namespace ASTL.Data.Repositories
 {
-    public class UserContextRepository
+    public class UserContextRepository : IUserContextRepository
     {
 
     }

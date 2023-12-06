@@ -8,11 +8,11 @@ namespace ASTL.Domain.Entities
 {
     public class Endereco
     {
-        public string cep { get; set; }   
-        public string cidade { get; set; }
-        public string estado { get; set; }
-        public int numero { get; set; }
-        public string pais { get; set; }
-        public string complemento { get; set; }
+        public string CEP { get; set; }   
+        public string Cidade { get; set; }
+        public string Estado { get; set; }
+        public int Numero { get; set; }
+        public string Pais { get; set; }
+        public string Complemento { get; set; }
     }
 }

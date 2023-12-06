@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "VahMReH6z2r+OQRFkY2C0AaS8Fwxar0gPO951/dB2PXegNzNSEf9SlIwZbgSZtzZABUxNotbxY+sucSFd6CDSQ==",
+  "success": true,
+  "projectFilePath": "C:\\_Repository\\amigoSolidario\\desenvolvimento\\Development\\ASTLapi\\WebApplication2\\WebApplication2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thier_2gt\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\thier_2gt\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\thier_2gt\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\thier_2gt\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}
