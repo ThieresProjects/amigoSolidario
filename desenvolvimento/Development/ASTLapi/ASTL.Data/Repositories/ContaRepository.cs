@@ -1,13 +1,9 @@
-﻿using ASTL.Domain.Interfaces.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ASTL.Domain.Entities;
+using ASTL.Domain.Interfaces.Repositories;
 
 namespace ASTL.Data.Repositories
 {
-    public class ContaRepository: IContaRepository
+    public class ContaRepository : RepositorioBase<Conta>, IContaRepository
     {
         public bool Verify(string user, string password)
         {

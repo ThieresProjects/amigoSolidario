@@ -4,15 +4,17 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace ASTL.Data.Configurations
 {
-    public class UserContextConfiguration : IEntityTypeConfiguration<UserContext>
+    public class PessoaConfiguration : IEntityTypeConfiguration<Pessoa>
     {
-        public void Configure(EntityTypeBuilder<UserContext> builder)
+        public void Configure(EntityTypeBuilder<Pessoa> builder)
         {
 
-            builder.ToTable("UserContext", "astl");
-            builder.HasKey("userContextID");
-            builder.Property(f => f.UserContextId).HasColumnName("userContext");
-            builder.Property(f => f.UserContextName).HasColumnName("userContextName");
+            builder.ToTable("Pessoa", "astl");
+            builder.HasKey(f => f.PessoaId);
+            builder.Property(f => f.PessoaId).HasColumnName("pessoaId");
+            builder.Property(f => f.Nome).HasColumnName("Nome");
+            builder.Property(f => f.CPF).HasColumnName("CPF");
+            builder.Property(f => f.Idade).HasColumnName("Idade");
         }
     }
 }

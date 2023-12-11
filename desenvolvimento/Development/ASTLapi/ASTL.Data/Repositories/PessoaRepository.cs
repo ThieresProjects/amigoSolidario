@@ -1,4 +1,5 @@
-﻿using ASTL.Domain.Interfaces.Repositories;
+﻿using ASTL.Domain.Entities;
+using ASTL.Domain.Interfaces.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ASTL.Data.Repositories
 {
-    public class PessoaRepository: IPessoaRepository
+    public class PessoaRepository : RepositorioBase<Pessoa>,IPessoaRepository
     {
 
     }

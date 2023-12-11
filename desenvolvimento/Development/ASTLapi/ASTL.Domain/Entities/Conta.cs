@@ -8,13 +8,13 @@ namespace ASTL.Domain.Entities
 {
     public class Conta
     {
-        public int ContaId { get; set; }
+        public int ContaID { get; set; }
+        public int PessoaID { get; set; }
         public string Usuario { get; set; }
         public string Email { get; set; }
-        public string Password { get; set; }
-        public int PessoaId { get; set; }
-        public int UserContextId { get; set; }
-        public DateTime DataCriacao { get; set; }
-        public DateTime DataAtualizacao { get; set; }
+        public string Senha { get; set; }
+        public DateTime CriadoEm { get; set; }
+        public DateTime AtualizadoEm { get; set; }
+        
     }
 }

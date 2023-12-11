@@ -11,33 +11,23 @@ namespace ASTL.Data.Context
 {
     public class SqlSContext : DbContext
     {
-        public SqlSContext(DbContextOptions<SqlSContext> options) : base(options)
-        {
+        //public SqlSContext(DbContextOptions<SqlSContext> options) : base(options)
+        //{
 
-        }
+        //}
 
         public DbSet<Conta> Conta { get; set; }
         public DbSet<Pessoa> Pessoa { get; set; }
-        public DbSet<UserContext> UserContext { get; set; }
-        public DbSet<Endereco> Endereco { get; set; }
-        public DbSet<Objeto> Objeto { get; set; }
-        public DbSet<TipoObjeto> TipoObjeto { get; set; }
-        public DbSet<LogDoacao> LogDoacao { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=10.107.176.41, 1434;database=RA044444;user id=RA044444;password=044444;");
+            optionsBuilder.UseSqlServer(@"Data source = 201.62.57.93, 1434; Database = BD044444; User ID = RA044444; Password = 044444; TrustServerCertificate = True");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new ContaConfiguration());
             modelBuilder.ApplyConfiguration(new PessoaConfiguration());
-            modelBuilder.ApplyConfiguration(new EnderecoConfiguration());
-            modelBuilder.ApplyConfiguration(new UserContextConfiguration());
-            modelBuilder.ApplyConfiguration(new ObjetoConfiguration());
-            modelBuilder.ApplyConfiguration(new TipoObjetoConfiguration());
-            modelBuilder.ApplyConfiguration(new LogDoacaoConfiguration());
         }
     }
 }

@@ -14,7 +14,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ASTL.Application\ASTL.Application.csproj" />
     <ProjectReference Include="..\ASTL.Data\ASTL.Data.csproj" />
+    <ProjectReference Include="..\ASTL.Service\ASTL.Service.csproj" />
   </ItemGroup>
 
 </Project>

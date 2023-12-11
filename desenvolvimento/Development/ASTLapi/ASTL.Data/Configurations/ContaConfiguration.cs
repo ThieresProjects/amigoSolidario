@@ -10,14 +10,14 @@ namespace ASTL.Data.Configurations
         {
 
             builder.ToTable("Conta", "astl");
-            builder.HasKey("ContaID");
-            builder.Property(f => f.ContaId).HasColumnName("ContaID");
-            builder.Property(f => f.PessoaId).HasColumnName("Password");
+            builder.HasKey(f => f.ContaID);
+            builder.Property(f => f.ContaID).HasColumnName("contaId");
+            builder.Property(f => f.PessoaID).HasColumnName("pessoaId");
             builder.Property(f => f.Usuario).HasColumnName("Usuario");
             builder.Property(f => f.Email).HasColumnName("Email");
-            builder.Property(f => f.Password).HasColumnName("PessoaId");
-            builder.Property(f => f.DataCriacao).HasColumnName("DataCriacao");
-            builder.Property(f => f.DataAtualizacao).HasColumnName("DataAtualizacao");
+            builder.Property(f => f.Senha).HasColumnName("Senha");
+            builder.Property(f => f.CriadoEm).HasColumnName("DataCriacao");
+            builder.Property(f => f.AtualizadoEm).HasColumnName("DataAtualizacao");
         }
     }
 }

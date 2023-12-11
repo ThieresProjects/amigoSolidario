@@ -2,6 +2,6 @@
 {
     public interface IContaService
     {
-        bool Verify(string usuario, string password);        
+        Task<bool> VerifyAsync(string usuario, string password);        
     }
 }

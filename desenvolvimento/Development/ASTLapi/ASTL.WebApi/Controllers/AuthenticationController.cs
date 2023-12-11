@@ -15,9 +15,9 @@ namespace ASTL.WebApi.Controllers
         }
 
         [HttpPost]
-        public ActionResult Login(string user, string password)
+        public async Task<ActionResult> Login(string user, string password)
         {
-            if (_contaService.Verify(user, password))
+            if (await _contaService.VerifyAsync(user, password))
                 return Redirect(Url.Action("",""));
             else
                 return new JsonResult(new { status = 1, message = "Usuario ou senha incorreta" });

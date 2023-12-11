@@ -1,0 +1,15 @@
+C:\_Repository\amigoSolidario\desenvolvimento\Development\ASTLapi\ASTL.Service\bin\Debug\net6.0\ASTL.Service.deps.json
+C:\_Repository\amigoSolidario\desenvolvimento\Development\ASTLapi\ASTL.Service\bin\Debug\net6.0\ASTL.Service.dll
+C:\_Repository\amigoSolidario\desenvolvimento\Development\ASTLapi\ASTL.Service\bin\Debug\net6.0\ASTL.Service.pdb
+C:\_Repository\amigoSolidario\desenvolvimento\Development\ASTLapi\ASTL.Service\bin\Debug\net6.0\ASTL.Domain.dll
+C:\_Repository\amigoSolidario\desenvolvimento\Development\ASTLapi\ASTL.Service\bin\Debug\net6.0\ASTL.Domain.pdb
+C:\_Repository\amigoSolidario\desenvolvimento\Development\ASTLapi\ASTL.Service\obj\Debug\net6.0\ASTL.Service.csproj.AssemblyReference.cache
+C:\_Repository\amigoSolidario\desenvolvimento\Development\ASTLapi\ASTL.Service\obj\Debug\net6.0\ASTL.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\_Repository\amigoSolidario\desenvolvimento\Development\ASTLapi\ASTL.Service\obj\Debug\net6.0\ASTL.Service.AssemblyInfoInputs.cache
+C:\_Repository\amigoSolidario\desenvolvimento\Development\ASTLapi\ASTL.Service\obj\Debug\net6.0\ASTL.Service.AssemblyInfo.cs
+C:\_Repository\amigoSolidario\desenvolvimento\Development\ASTLapi\ASTL.Service\obj\Debug\net6.0\ASTL.Service.csproj.CoreCompileInputs.cache
+C:\_Repository\amigoSolidario\desenvolvimento\Development\ASTLapi\ASTL.Service\obj\Debug\net6.0\ASTL.Service.csproj.CopyComplete
+C:\_Repository\amigoSolidario\desenvolvimento\Development\ASTLapi\ASTL.Service\obj\Debug\net6.0\ASTL.Service.dll
+C:\_Repository\amigoSolidario\desenvolvimento\Development\ASTLapi\ASTL.Service\obj\Debug\net6.0\refint\ASTL.Service.dll
+C:\_Repository\amigoSolidario\desenvolvimento\Development\ASTLapi\ASTL.Service\obj\Debug\net6.0\ASTL.Service.pdb
+C:\_Repository\amigoSolidario\desenvolvimento\Development\ASTLapi\ASTL.Service\obj\Debug\net6.0\ref\ASTL.Service.dll
