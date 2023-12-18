@@ -15,17 +15,29 @@ namespace ASTL.Controllers
             _contaRepository = new ContaRepository();
         }
 
+        //[HttpPost]
+        //[AllowAnonymous]
+        //public ActionResult Login(string email, string password)
+        //{
+        //    UserData.Authenticated();
+        //    UserData.ContaID = _contaRepository.Verify(email, password);
+        //    if (UserData.Authenticated())
+        //        return new JsonResult(new { status = 1, message = Url.Action("Index", "Admin") });
+        //    else
+        //        return new JsonResult(new { status = 0, message = "Usuario ou senha incorreta" });
+        //}
+
         [HttpPost]
         [AllowAnonymous]
         public ActionResult Login(string email, string password)
         {
-            UserData.Authenticated();
-            UserData.ContaID = _contaRepository.Verify(email, password);
-            if (UserData.Authenticated())
+            var user = _contaRepository.Verify(email, password);
+            if (user != null)
                 return new JsonResult(new { status = 1, message = Url.Action("Index", "Admin") });
             else
                 return new JsonResult(new { status = 0, message = "Usuario ou senha incorreta" });
         }
+
 
         [HttpPost]
         public ActionResult Registrar(string name, string email, string password ,string confirmPassword)

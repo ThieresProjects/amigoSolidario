@@ -15,7 +15,7 @@ namespace ASTL.Data.Repositories
             _entidade = _contexto.Set<T>();
         }
 
-        public virtual T ListarUm(params object[] keys)
+        public virtual T? ListarUm(params object[] keys)
         {
             return _entidade.Find(keys);
         }

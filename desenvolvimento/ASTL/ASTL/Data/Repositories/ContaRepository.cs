@@ -9,7 +9,7 @@ namespace ASTL.Data.Repositories
             var ent = ListarTodos().Where(x => x.Email == user &&
                                                   BCrypt.Net.BCrypt.Verify(password, x.Senha)
                                      ).ToList();
-            return ent.FirstOrDefault().ContaID;
+            return ent.FirstOrDefault()?.ContaID ?? 0;
         }
 
         public async Task<int> VerifyAsync(string user, string password)
@@ -17,7 +17,7 @@ namespace ASTL.Data.Repositories
             var ent = (await ListarTodosAsync()).Where(x => x.Email == user &&
                                                             BCrypt.Net.BCrypt.Verify(password, x.Senha)
                                                       ).ToList();
-            return ent.FirstOrDefault().ContaID;
+            return ent.FirstOrDefault()?.ContaID ?? 0;
         }
 
         public bool Register(Conta conta)

@@ -1,0 +1,8 @@
+C:\_Repository\amigoSolidario\desenvolvimento\ASTL\ASTL\obj\Release\net6.0\ASTL.csproj.AssemblyReference.cache
+C:\_Repository\amigoSolidario\desenvolvimento\ASTL\ASTL\obj\Release\net6.0\ASTL.GeneratedMSBuildEditorConfig.editorconfig
+C:\_Repository\amigoSolidario\desenvolvimento\ASTL\ASTL\obj\Release\net6.0\ASTL.AssemblyInfoInputs.cache
+C:\_Repository\amigoSolidario\desenvolvimento\ASTL\ASTL\obj\Release\net6.0\ASTL.AssemblyInfo.cs
+C:\_Repository\amigoSolidario\desenvolvimento\ASTL\ASTL\obj\Release\net6.0\ASTL.csproj.CoreCompileInputs.cache
+C:\_Repository\amigoSolidario\desenvolvimento\ASTL\ASTL\obj\Release\net6.0\ASTL.MvcApplicationPartsAssemblyInfo.cache
+C:\_Repository\amigoSolidario\desenvolvimento\ASTL\ASTL\obj\Release\net6.0\ASTL.RazorAssemblyInfo.cache
+C:\_Repository\amigoSolidario\desenvolvimento\ASTL\ASTL\obj\Release\net6.0\ASTL.RazorAssemblyInfo.cs

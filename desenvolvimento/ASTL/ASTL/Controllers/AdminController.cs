@@ -92,8 +92,8 @@ namespace ASTL.Controllers
             var ent = new CampanhaViewModel()
             {
                 CampanhaID = campanhaId,
-                Nome = campanha.Nome,
-                Descricao = campanha.Descricao,
+                Nome = campanha?.Nome,
+                Descricao = campanha?.Descricao,
                 Grupos = listGrupos,
                 Produtos = produtos,
                 Premios = premios,

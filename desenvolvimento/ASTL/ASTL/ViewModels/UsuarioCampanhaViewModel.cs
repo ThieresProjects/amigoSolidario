@@ -10,9 +10,9 @@ namespace ASTL.ViewModels
         public int GrupoID { get; set; }
         public bool Admin { get; set; }
         public decimal Score { get; set; }
-        public Conta Usuario { get; set; }
-        public CampanhaGrupo Grupo { get; set; }
+        public Conta? Usuario { get; set; }
+        public CampanhaGrupo? Grupo { get; set; }
 
-        public IEnumerable<UsuarioScore> Scores { get; set; }
+        public IEnumerable<UsuarioScore>? Scores { get; set; }
     }
 }

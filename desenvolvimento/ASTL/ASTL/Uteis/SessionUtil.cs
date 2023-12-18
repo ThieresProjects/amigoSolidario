@@ -3,7 +3,7 @@ namespace ASTL.Uteis
 {
     public class SessionUtil : ITempDataUtil
     {
-        private HttpContext _context { get { return _context; } }
+        private HttpContext _context;
 
         public void Delete(string key)
         {

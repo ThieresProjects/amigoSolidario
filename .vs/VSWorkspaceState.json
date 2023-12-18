@@ -2,10 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\desenvolvimento",
-    "\\desenvolvimento\\Development",
-    "\\desenvolvimento\\Development\\ASTLapp",
-    "\\desenvolvimento\\Development\\ASTLapp\\astl"
+    "\\desenvolvimento\\ASTL",
+    "\\desenvolvimento\\ASTL\\ASTL",
+    "\\desenvolvimento\\ASTL\\ASTL\\Views",
+    "\\desenvolvimento\\ASTL\\ASTL\\Views\\Admin"
   ],
-  "SelectedNode": "\\desenvolvimento\\README.md",
+  "SelectedNode": "\\desenvolvimento\\ASTL\\ASTL\\Views\\Admin\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }
