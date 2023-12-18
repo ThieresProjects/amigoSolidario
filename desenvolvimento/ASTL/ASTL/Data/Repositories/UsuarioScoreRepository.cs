@@ -2,7 +2,7 @@
 
 namespace ASTL.Data.Repositories
 {
-    public class UsuarioCampanhaRepository : RepositorioBase<UsuarioCampanha>
+    public class UsuarioScoreRepository : RepositorioBase<UsuarioScore>
     {
 
     }

@@ -1,24 +1,23 @@
-﻿using ASTL.Models;
-using Microsoft.AspNetCore.Mvc;
+﻿using ASTL.Data.Entities;
 
 namespace ASTL.Data.Repositories
 {
     public class ContaRepository : RepositorioBase<Conta>
     {
-        public bool Verify(string user, string password)
+        public int Verify(string user, string password)
         {
-            var pswd = BCrypt.Net.BCrypt.HashPassword(password);
             var ent = ListarTodos().Where(x => x.Email == user &&
                                                   BCrypt.Net.BCrypt.Verify(password, x.Senha)
                                      ).ToList();
-            return ent.Count() == 1;
+            return ent.FirstOrDefault().ContaID;
         }
 
-        public async Task<bool> VerifyAsync(string user, string password)
+        public async Task<int> VerifyAsync(string user, string password)
         {
             var ent = (await ListarTodosAsync()).Where(x => x.Email == user &&
-                                                 x.Senha == BCrypt.Net.BCrypt.HashPassword(password)).ToList();
-            return ent.Count() == 1;
+                                                            BCrypt.Net.BCrypt.Verify(password, x.Senha)
+                                                      ).ToList();
+            return ent.FirstOrDefault().ContaID;
         }
 
         public bool Register(Conta conta)

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\_Repository\\amigoSolidario\\Development\\ASTL\\ASTL\\ASTL.csproj": {}
+    "C:\\_Repository\\amigoSolidario\\desenvolvimento\\ASTL\\ASTL\\ASTL.csproj": {}
   },
   "projects": {
-    "C:\\_Repository\\amigoSolidario\\Development\\ASTL\\ASTL\\ASTL.csproj": {
+    "C:\\_Repository\\amigoSolidario\\desenvolvimento\\ASTL\\ASTL\\ASTL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_Repository\\amigoSolidario\\Development\\ASTL\\ASTL\\ASTL.csproj",
+        "projectUniqueName": "C:\\_Repository\\amigoSolidario\\desenvolvimento\\ASTL\\ASTL\\ASTL.csproj",
         "projectName": "ASTL",
-        "projectPath": "C:\\_Repository\\amigoSolidario\\Development\\ASTL\\ASTL\\ASTL.csproj",
+        "projectPath": "C:\\_Repository\\amigoSolidario\\desenvolvimento\\ASTL\\ASTL\\ASTL.csproj",
         "packagesPath": "C:\\Users\\thier_2gt\\.nuget\\packages\\",
-        "outputPath": "C:\\_Repository\\amigoSolidario\\Development\\ASTL\\ASTL\\obj\\",
+        "outputPath": "C:\\_Repository\\amigoSolidario\\desenvolvimento\\ASTL\\ASTL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thier_2gt\\AppData\\Roaming\\NuGet\\NuGet.Config",

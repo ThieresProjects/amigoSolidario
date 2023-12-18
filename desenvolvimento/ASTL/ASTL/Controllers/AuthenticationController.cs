@@ -1,8 +1,8 @@
+using ASTL.Data.Entities;
 using ASTL.Data.Repositories;
-using ASTL.Models;
+using ASTL.Uteis;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Org.BouncyCastle.Crypto.Generators;
 
 namespace ASTL.Controllers
 {
@@ -19,7 +19,9 @@ namespace ASTL.Controllers
         [AllowAnonymous]
         public ActionResult Login(string email, string password)
         {
-            if (_contaRepository.Verify(email, password))
+            UserData.Authenticated();
+            UserData.ContaID = _contaRepository.Verify(email, password);
+            if (UserData.Authenticated())
                 return new JsonResult(new { status = 1, message = Url.Action("Index", "Admin") });
             else
                 return new JsonResult(new { status = 0, message = "Usuario ou senha incorreta" });

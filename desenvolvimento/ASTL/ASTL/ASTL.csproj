@@ -19,10 +19,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Data\Entities\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="wwwroot\css\global.css" />
     <None Include="wwwroot\img\arrecadacao.jpg" />
     <None Include="wwwroot\img\github.png" />

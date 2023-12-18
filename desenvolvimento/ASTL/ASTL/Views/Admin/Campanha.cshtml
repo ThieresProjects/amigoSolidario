@@ -1,0 +1,77 @@
+﻿@model  ASTL.ViewModels.CampanhaViewModel
+
+@{
+    ViewData["Title"] = "Campanha";
+}
+
+<script src="./assets/js/script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+@*<container class="d-flex">*@
+
+<container class="d-flex w-100" style="min-height:100vh">
+    <nav class="menu-sidebar col-auto">
+        <ul class="list-group">
+            @*            <li class="list-group-item bg-dark">
+            <a href="#">
+            <img src="~/img/logo-2.png" id="logo-sidebar"/>
+            <span class="menu-texto">
+            Amigo Solidario
+            </span>
+            </a>
+            </li>*@
+
+            <li class="list-group-item bg-dark">
+                <a href="#">
+                    <ion-icon name="add" aria-hidden="true" class="icon icon-text"></ion-icon>
+                    <span class="menu-texto">Adicionar Campanha</span>
+                </a>
+
+            </li>
+        </ul>
+
+        <ul class="logout list-group">
+
+            <li class="list-group-item bg-dark">
+                <a href="../">
+                    <ion-icon name="power-outline" aria-hidden="true" class="icon icon-text"></ion-icon>
+                    <span class="menu-texto"> Sair</span>
+                </a>
+            </li>
+
+        </ul>
+    </nav>
+    <section class="col">
+        <nav class="navbar navbar-light bg-light position-static">
+            <div class="container-fluid d-flex justify-content-between w-100">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="~/img/logo-2.png" id="logo-sidebar" />
+                    <span class="menu-texto">
+                        Amigo Solidario
+                    </span>
+                </a>
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="~/img/logo-2.png" id="logo-sidebar" />
+                    <span class="menu-texto">
+                        Nome Usuario
+                    </span>
+                </a>
+            </div>
+
+        </nav>
+
+
+        <main class="m-4 row">
+            <div class="card mx-2" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Campanha</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </main>
+    </section>
+</container>
+
+@*</container>*@

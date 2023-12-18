@@ -1,4 +1,4 @@
-﻿using ASTL.Models;
+﻿using ASTL.Data.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 

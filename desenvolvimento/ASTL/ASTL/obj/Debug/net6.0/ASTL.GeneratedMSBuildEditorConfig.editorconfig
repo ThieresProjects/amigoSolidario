@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\_Repository\amigoSolidario\desenvolvimento\ASTL\ASTL
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/_Repository/amigoSolidario/desenvolvimento/ASTL/ASTL/Views/Admin/Campanha.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2FtcGFuaGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/_Repository/amigoSolidario/desenvolvimento/ASTL/ASTL/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

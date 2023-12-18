@@ -1,4 +1,5 @@
-﻿using ASTL.Models;
+﻿using ASTL.Data.Entities;
+using ASTL.ViewModels;
 
 namespace ASTL.Data.Repositories
 {

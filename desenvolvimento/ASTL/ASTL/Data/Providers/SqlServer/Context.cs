@@ -1,17 +1,19 @@
-﻿using ASTL.Data.Providers.SqlServer.Configurations;
-using ASTL.Models;
+﻿using ASTL.Data.Entities;
+using ASTL.Data.Providers.SqlServer.Configurations;
+using ASTL.ViewModels;
 using Microsoft.EntityFrameworkCore;
 
 namespace ASTL.Data.Providers.SqlServer
 {
     public class Context : DbContext
-    {
+    {   
         public DbSet<Conta> Conta { get; set; }
         public DbSet<Campanha> Campanha { get; set; }
         public DbSet<CampanhaGrupo> CampanhaGrupo { get; set; }
-        public DbSet<CampanhaScore> CampanhaScore { get; set; }
+        public DbSet<CampanhaPremio> CampanhaPremio { get; set; }
+        public DbSet<UsuarioScore> CampanhaScore { get; set; }
         public DbSet<UsuarioCampanha> UsuarioCampanha { get; set; }
-        public DbSet<Produto> Produto { get; set; }
+        public DbSet<ProdutoCampanha> ProdutoCampanha { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -33,10 +35,11 @@ namespace ASTL.Data.Providers.SqlServer
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new ContaConfiguration());
-            modelBuilder.ApplyConfiguration(new ProdutoConfiguration());
+            modelBuilder.ApplyConfiguration(new CampanhaPremioConfiguration());
             modelBuilder.ApplyConfiguration(new CampanhaConfiguration());
-            modelBuilder.ApplyConfiguration(new CampanhaScoreConfiguration());
+            modelBuilder.ApplyConfiguration(new UsuarioScoreConfiguration());
             modelBuilder.ApplyConfiguration(new CampanhaGrupoConfiguration());
+            modelBuilder.ApplyConfiguration(new CampanhaPremioConfiguration());
             modelBuilder.ApplyConfiguration(new UsuarioCampanhaConfiguration());
         }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O3+UPBIKaDFNX81G8pKqeOwsL88byF3DWhr9buVkXcTk8wzi9+JHer0B7H+jOsezo2zBOw7cQUhem/nHrfgXQg==",
+  "dgSpecHash": "fEyXY/T8MKEqwzeXorl/U0XIq06ihSMMNVtYOMogK3SikoRQ08SIgjreOTbxFnpac1OAD22mnMaPDoDQEoq/4A==",
   "success": true,
-  "projectFilePath": "C:\\_Repository\\amigoSolidario\\Development\\ASTL\\ASTL\\ASTL.csproj",
+  "projectFilePath": "C:\\_Repository\\amigoSolidario\\desenvolvimento\\ASTL\\ASTL\\ASTL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thier_2gt\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\thier_2gt\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
