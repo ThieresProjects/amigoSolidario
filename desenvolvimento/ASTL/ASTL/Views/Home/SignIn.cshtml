@@ -1,0 +1,94 @@
+﻿@{
+    ViewData["Title"] = "Sign In";
+}
+
+<script>
+    function register() {
+
+        let name = document.querySelector('input[name="name"]').value;
+        let mail = document.querySelector('input[name="email"]').value;
+        let pswd = document.querySelector('input[name="password"]').value;
+        let cpswd = document.querySelector('input[name="confirmPassword"]').value;
+
+        if (mail != "" && pswd != "" && cpswd != "" && name != "") {
+            let data = new FormData();
+            data.append("name", mail);
+            data.append("email", mail);
+            data.append("password", pswd);
+            data.append("confirmPassword", cpswd);
+
+            const myRequest = new Request("../Authentication/Registrar", {
+                method: "POST",
+                body: data
+            });
+            fetch(myRequest)
+                .then(response => response.json())
+                .then(d => {
+                    alert(d.message);
+                    if (d.status == 1)l
+                        window.location.href = "./SignUp";
+                })
+                .catch((e) => { alert("Erro"); });
+        }
+        return false;
+    }
+</script>
+
+<section class="container-loginpage forms">
+    <div class="form login">
+        <div class="form-content">
+            <header>Cadastrar-se</header>
+            <form onsubmit="return register()">
+                <div class="field input-field">
+                    <input type="text" name="name" placeholder="Nome do Usuario" class="name" />
+                </div>
+
+                <div class="field input-field">
+                    <input type="text" name="email" placeholder="Email" class="input" />
+                </div>
+
+                <div class="field input-field">
+                    <input type="password" name="password" placeholder="Senha" class="password" />
+                    <i class='bx bx-hide eye-icon'></i>
+                </div>
+
+                <div class="field input-field">
+                    <input type="password" name="confirmPassword" placeholder="Confirme a senha" class="confirmPassword" />
+                    <i class='bx bx-hide eye-icon'></i>
+                </div>
+
+                @*<div class="form-link">
+                <a href="#" class="forgot-pass">Esqueceu a senha?</a>
+                </div>*@
+
+                <div class="field button-field">
+                    <button class='text-center'>
+                        Registrar
+                    </button>
+                </div>
+            </form>
+
+            <div class="form-link">
+                <span>Já possuí uma conta? <a href="/Home/signup" class="link signup-link">Logar</a></span>
+            </div>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="media-options">
+            <a href="#" class="field facebook">
+                @*{/* <i class='bx bxl-facebook facebook-icon'></i> */}*@
+                <img src="~/img/github.png" alt="" class="github-img" />
+                <span>Acesse com o GitHub</span>
+            </a>
+        </div>
+
+        <div class="media-options">
+            <a href="#" class="field google">
+                <img src="~/img/google.png" alt="" class="google-img" />
+                <span>Acesse com o Google</span>
+            </a>
+        </div>
+    </div>
+
+</section>

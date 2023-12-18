@@ -1,0 +1,84 @@
+﻿@{
+    ViewData["Title"] = "Sign Up";
+}
+
+<script>
+    function login(){
+
+        let mail = document.querySelector('input[name="email"]').value;
+        let pswd = document.querySelector('input[name="password"]').value;
+
+        if(mail != "" && pswd != ""){
+
+            let data = new FormData();
+                data.append("email"    ,mail);
+                data.append("password" ,pswd);
+
+            const myRequest = new Request("../Authentication/Login", {
+                method: "POST",
+                body: data
+            });
+            fetch(myRequest)
+                .then( response => response.json())
+                .then( d => {
+                    if(d.status == 0)
+                        alert(d.message);
+                    else
+                        window.location.href = d.message;                    
+                })
+                .catch((e) => { alert("Erro"); });
+        }
+        return false;
+    }
+</script>
+
+<section class="container-loginpage forms">
+    <div class="form login">
+        <div class="form-content">
+            <header>Logar</header>
+            <form onsubmit="return login()">
+                <div class="field input-field">
+                    <input type="text" name="email" placeholder="Email" class="input" />
+                </div>
+
+                <div class="field input-field">
+                    <input type="password" name="password" placeholder="Senha" class="password" />
+                    <i class='bx bx-hide eye-icon'></i>
+                </div>
+
+                @*<div class="form-link">
+                    <a href="#" class="forgot-pass">Esqueceu a senha?</a>
+                </div>*@
+
+                <div class="field button-field">
+                    <button class='text-center'
+                            onClick="">
+                        Entrar
+                    </button>
+                </div>
+            </form>
+
+            <div class="form-link">
+                <span>Não consegue acessar a conta? <a href="/Home/signin" class="link signup-link">Cadastrar-se</a></span>
+            </div>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="media-options">
+            <a href="#" class="field facebook">
+                @*{/* <i class='bx bxl-facebook facebook-icon'></i> */}*@
+                <img src="~/img/github.png" alt="" class="github-img" />
+                <span>Acesse com o GitHub</span>
+            </a>
+        </div>
+
+        <div class="media-options">
+            <a href="#" class="field google">
+                <img src="~/img/google.png" alt="" class="google-img" />
+                <span>Acesse com o Google</span>
+            </a>
+        </div>
+    </div>
+
+</section>

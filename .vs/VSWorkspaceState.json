@@ -3,11 +3,9 @@
     "",
     "\\desenvolvimento",
     "\\desenvolvimento\\Development",
-    "\\desenvolvimento\\Development\\ASTLapi",
-    "\\desenvolvimento\\Development\\ASTLapi\\ASTL.Data",
-    "\\desenvolvimento\\Development\\ASTLapi\\ASTL.Domain\\Entities",
-    "\\desenvolvimento\\Development\\ASTLapp"
+    "\\desenvolvimento\\Development\\ASTLapp",
+    "\\desenvolvimento\\Development\\ASTLapp\\astl"
   ],
-  "SelectedNode": "\\desenvolvimento\\Development\\ASTLapi\\ASTL.Domain",
+  "SelectedNode": "\\desenvolvimento\\README.md",
   "PreviewInSolutionExplorer": false
 }

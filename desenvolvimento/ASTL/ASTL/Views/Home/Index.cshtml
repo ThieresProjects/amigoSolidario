@@ -1,0 +1,173 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@*<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>*@
+
+<!--
+  - #HEADER
+-->
+
+<header class="">
+    <div class="" style="display: flex; justify-content: space-around;">
+
+        <div class="overlay" data-overlay></div>
+        <a href="#">
+            <img src="~/img/logo-2.png" alt="AS logo" width="70" height="31" />
+        </a>
+
+        <div class="header-actions">
+
+            <a type="button" href="~/Home/SignUp" class="" style="display: flex;">
+                <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+                <p class="header-action-label">Faça Login</p>
+            </a>
+
+        </div>
+
+    </div>
+</header>
+
+<main>
+    <article>
+
+        <!--
+          - #HERO
+        -->
+
+        <section class="hero" id="home" style="background-image: url('./img/arrecadacao.jpg')">
+            <div class="container">
+
+                <div class="hero-content">
+
+                    <p class="hero-subtitle">Crie suas proprias campanhas de arrecadação</p>
+                    <button class="btn btn-primary">Saiba Mais</button>
+
+                </div>
+
+            </div>
+        </section>
+    </article>
+</main>
+<!--
+  - #FOOTER
+-->
+
+<footer class="footer">
+
+    <div class="footer-top">
+        <div class="container">
+
+            <div class="footer-brand">
+
+                <a href="#" class="logo">
+                    <img src="~/img/logo-2.png" width="150" height="30" alt="AS logo">
+                </a>
+
+                <p class="footer-text">
+
+                </p>
+                <ul class="social-list">
+                    <li>
+                        <a href="#" class="social-link" title="Github do projeto">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-link" title="Linkedin do Thieres">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-link" title="Linkedin do Lucas">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <ul class="footer-list">
+
+                <li>
+                    <p class="footer-list-title">Informações</p>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Sobre nós</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Tipo de Pagamentos</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Política de Devolução</a>
+                </li>
+
+            </ul>
+
+            <ul class="footer-list">
+
+                <li>
+                    <p class="footer-list-title">Ajuda e Suporte</p>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Agentes</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">FAQ</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Rastreamento</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Lista de Locais Beneficiados</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="container">
+
+            <p class="copyright">
+                &copy; 2023 <a href="#">AS</a>.
+            </p>
+
+            <ul class="footer-bottom-list">
+                <li>
+                    <a href="#" class="footer-bottom-link">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-bottom-link">Terms & Conditions</a>
+                </li>
+            </ul>
+
+
+        </div>
+    </div>
+
+</footer>
+
+<!--
+  - custom js link
+-->
+<script src="./assets/js/script.js"></script>
+
+<!--
+  - ionicon link
+-->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
