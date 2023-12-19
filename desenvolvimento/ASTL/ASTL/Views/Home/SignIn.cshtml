@@ -25,10 +25,9 @@
                 .then(response => response.json())
                 .then(d => {
                     alert(d.message);
-                    if (d.status == 1)l
+                    if (d.status == 1)
                         window.location.href = "./SignUp";
-                })
-                .catch((e) => { alert("Erro"); });
+                });
         }
         return false;
     }

@@ -1,6 +1,5 @@
 using ASTL.Data.Entities;
 using ASTL.Data.Repositories;
-using ASTL.Uteis;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,29 +14,23 @@ namespace ASTL.Controllers
             _contaRepository = new ContaRepository();
         }
 
-        //[HttpPost]
-        //[AllowAnonymous]
-        //public ActionResult Login(string email, string password)
-        //{
-        //    UserData.Authenticated();
-        //    UserData.ContaID = _contaRepository.Verify(email, password);
-        //    if (UserData.Authenticated())
-        //        return new JsonResult(new { status = 1, message = Url.Action("Index", "Admin") });
-        //    else
-        //        return new JsonResult(new { status = 0, message = "Usuario ou senha incorreta" });
-        //}
-
         [HttpPost]
         [AllowAnonymous]
         public ActionResult Login(string email, string password)
         {
-            var user = _contaRepository.Verify(email, password);
-            if (user != null)
+            var id = _contaRepository.Verify(email, password);
+            HttpContext.Session.SetInt32("ContaID", id );
+            if (HttpContext.Session.TryGetValue("ContaID", out var n))
                 return new JsonResult(new { status = 1, message = Url.Action("Index", "Admin") });
             else
                 return new JsonResult(new { status = 0, message = "Usuario ou senha incorreta" });
         }
 
+        public ActionResult Logout()
+        {
+            HttpContext.Session.Remove("ContaID");
+            return new JsonResult(new { status = 1, message = Url.Action("Index", "Home") });
+        }
 
         [HttpPost]
         public ActionResult Registrar(string name, string email, string password ,string confirmPassword)

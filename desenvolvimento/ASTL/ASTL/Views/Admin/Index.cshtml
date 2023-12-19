@@ -1,5 +1,4 @@
-﻿@using ASTL.Data.Entities;
-@model IEnumerable<Campanha>
+﻿@model IEnumerable<ASTL.Data.Entities.Campanha>
 
 @{
     ViewData["Title"] = "Campanhas";
@@ -35,7 +34,7 @@
         <ul class="logout list-group">
 
             <li class="list-group-item bg-dark">
-                <a href="../">
+                <a href="" onclick="return logout()">
                     <ion-icon name="power-outline" aria-hidden="true" class="icon icon-text"></ion-icon>
                     <span class="menu-texto"> Sair</span>
                 </a>
@@ -63,16 +62,34 @@
             </nav>
 
 
-            <main class="m-4 row">
-                <div class="card mx-2" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Campanha</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <main class="m-4 row cursor-pointer">
+                @foreach(var item in Model.OrderBy(x => x.Nome))
+                {
+                <div class="card mx-2" style="width: 18rem; cursor:pointer; z-index:1;" onclick="redirectCampanha(@item.CampanhaID)">
+                        <div class="card-body">
+                            <h5 class="card-title">@item.Nome</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">@item.CriadoEm</h6>
+                            <p class="card-text">@item.Descricao</p>
+                        </div>
                     </div>
-                </div>
+                }
             </main>
     </section>
 </container>
+
+<script>
+    function redirectCampanha(Id){
+        window.location.href = "/Admin/Campanha/" + Id;
+    }
+
+    function logout(){
+        fetch("../Authentication/Logout")
+            .then(response => response.json())
+            .then(d => {
+                window.location.href = d.message
+            });
+        return false;
+    }
+</script>
 
 @*</container>*@

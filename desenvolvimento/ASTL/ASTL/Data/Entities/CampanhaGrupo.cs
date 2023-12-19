@@ -5,6 +5,6 @@
         public int CampanhaID { get; set; }
         public int GrupoID { get; set; }
         public string Nome { get; set; }
-        public decimal ScoreGroup { get; set; }
+        public int ScoreGroup { get; set; }
     }
 }

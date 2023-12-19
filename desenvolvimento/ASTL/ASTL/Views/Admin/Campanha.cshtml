@@ -34,7 +34,7 @@
         <ul class="logout list-group">
 
             <li class="list-group-item bg-dark">
-                <a href="../">
+                <a href="" onclick="return logout()">
                     <ion-icon name="power-outline" aria-hidden="true" class="icon icon-text"></ion-icon>
                     <span class="menu-texto"> Sair</span>
                 </a>
@@ -63,15 +63,54 @@
 
 
         <main class="m-4 row">
-            <div class="card mx-2" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Campanha</h6>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-            </div>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Usuario</th>
+                  <th scope="col">Email</th>
+                  <th scope="col">Pontuação</th>
+                  <th scope="col">Admin</th>
+                </tr>
+              </thead>
+              <tbody>
+                @{int count = 0;}
+                @if(Model.usuarios.Any()){
+                    @foreach(var item in Model.usuarios.OrderBy(x => x.Score))
+                    {
+                    
+                        <tr>
+                            <th scope="row">@(count += 1)
+                            <td>@item.Usuario?.Usuario
+                            <td>@item.Usuario?.Email
+                            <td>@item.Score pts
+                            <td>
+                                <input onchange="adicionar()" id="adicionar-valor" />
+                            </td>
+                        </tr>
+                    }
+                }
+              </tbody>
+            </table>
         </main>
     </section>
 </container>
+
+<script>
+    function logout() {
+        fetch("../../Authentication/Logout")
+            .then(response => response.json())
+            .then(d => { window.location.href = d.message; });
+        return false;
+    }
+
+    function adicionar(){
+        let valueInp = document.getElementById('adicionar-valor').ariaValueMax;
+        fetch("../../AdicionarValor/" + valueInp)
+            .then(response => response.json())
+            .then(d => { alert(d.message;) });
+
+    }
+</script>
 
 @*</container>*@

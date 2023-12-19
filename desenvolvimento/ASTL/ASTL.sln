@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASTL", "ASTL\ASTL.csproj", "{3EC66BF3-08E1-47F8-9474-FCFF2FB69359}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASTL", "ASTL\ASTL.csproj", "{3EC66BF3-08E1-47F8-9474-FCFF2FB69359}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

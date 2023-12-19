@@ -1,5 +1,3 @@
-using ASTL.Data.Providers.SqlServer;
-using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 

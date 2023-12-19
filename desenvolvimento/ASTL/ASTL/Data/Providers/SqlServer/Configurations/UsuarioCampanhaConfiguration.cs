@@ -13,7 +13,8 @@ namespace ASTL.Data.Providers.SqlServer.Configurations
             builder.HasKey(f => f.CampanhaID);
             builder.Property(f => f.ContaID).HasColumnName("contaId");
             builder.Property(f => f.CampanhaID).HasColumnName("campanhaId");
-            builder.Property(f => f.Score).HasColumnName("Pontuacao");
+            builder.Property(f => f.Score).HasColumnName("Score");
+            builder.Property(f => f.Admin).HasColumnName("Admin");
         }
     }
 }

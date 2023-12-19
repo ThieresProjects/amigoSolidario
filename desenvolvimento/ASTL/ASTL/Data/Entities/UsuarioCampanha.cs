@@ -6,6 +6,6 @@
         public int ContaID { get; set; }
         public int GrupoID { get; set; }
         public bool Admin { get; set; }
-        public decimal Score { get; set; }
+        public int Score { get; set; }
     }
 }
